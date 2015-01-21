@@ -1,0 +1,5 @@
+#!/bin/bash
+git add .
+git add -u
+git commit -m "`date +%F_%H-%M`"
+git push
